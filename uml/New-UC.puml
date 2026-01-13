@@ -1,0 +1,14 @@
+@startuml
+left to right direction
+
+actor Student
+
+rectangle "Course Registration System" {
+  (Register Course)
+  (Check Prerequisite)
+}
+
+Student --> (Register Course)
+Student --> (Check Prerequisite)
+
+@enduml
